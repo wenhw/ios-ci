@@ -1,2 +1,2 @@
 language: objective-c
-osx_image: xcode1131
+osx_image: xcode11.3
