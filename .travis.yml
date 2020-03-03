@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode11.3
 xcode_project: LoginPush.xcodeproj
 xcode_scheme: LoginPush
-xcode_destination: platform=IOS Simulator,OS=12.1,name=iPhone X
+xcode_destination: platform=IOS Simulator,OS=12.2,name=iPhone X
