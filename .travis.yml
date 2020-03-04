@@ -21,6 +21,7 @@ script:
 
 after_script:
 - "./travis/remove-key.sh"
+- "ls -als build"
 
 env:
   global:
