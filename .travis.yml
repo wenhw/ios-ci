@@ -8,5 +8,5 @@ before_install:
 - chmod +x travis/add-key.sh 
 - chmod +x travis/build.sh 
 - chmod +x travis/remove-key.sh 
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.cer.enc -out travis/cert/loginpush.cer -a -d
+- openssl aes-256-cbc -k abcd1234 -in travis/cert/loginpush.cer.enc -out travis/cert/loginpush.cer -a -d
 
