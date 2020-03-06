@@ -11,7 +11,7 @@ before_install:
 
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in travis/cert/loginpush.cer.enc -out travis/cert/loginpush.cer -a -d
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in travis/cert/loginpush.p12.enc -out travis/cert/loginpush.p12 -a -d
-- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in travis/cert/loginpush.mobileprovision.enc -out travis/cert/loginpush.mobileprovision -a -d
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in travis/cert/loginpush_pp.mobileprovision.enc -out travis/cert/loginpush_pp.mobileprovision -a -d
 
 before_script:
 - "./travis/add-key.sh"
