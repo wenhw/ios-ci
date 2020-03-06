@@ -1,4 +1,1 @@
-*.cer
-*.p8
-*.p12
-*.mobileprovision
+travis/cert/bak/*
