@@ -12,15 +12,3 @@ env:
   - secure: t6FdFVZ+1g9+wtNLY+IqeFXaDqE1i7HDraFmVmLe4cLVwrzb0nLtaJtTjvju/MvHPrUzpT22ID+Mr8XPg8k6L/M80h1kXr70rr61vfV5wiXLbYWFFoaHY9u98ZRDsTtGIj/QNGaZYzoiMuDzLj+98XiwZ9UiMJNevlUFOM27bs7o7HTMfIRuF1yFY2O0ostX+Co57sT+1UAoWN2b0huFa0+YfUPAc6mNPQOvR8dSGfLTTFPLDXtyUMDxjwsuLGIuviht6DaE1UxqwiQUKA8AzUSj5QYstoS9S48H1gzvlVxRvPpN9QmvA4T6rwTwlKn/1iq3ygqboCB/K1RuTL66ljZQyafNYgvml0c04jpkAm+Z0ilrsqkzH8QTrCv6MJkedfPwCgshsRvE65lKCXlAjZ0hG7PkD7gfK7JbK797dAC0BRHatUojQypQmKJSs10vJlownhu7jQdc59B+DxAiXJUHM2j9HtV4lPjGZcZbLt8KbDTB3Vs49UdJh6lM6exhGvhKics742yI0Jln/DDMQxSBRRlGf5jOHtmkMLzmWUbeq3XdZwChy+DA+Iwtsbhc41bG+RKJipw8z1KBl+vI8X1b0NI2uX8zkM1sp8c+yUOD1kWt8FQ5h92M1zmSPKNg4km/7Mm5aHqQcDciXsYNxeMz3TQhiO6CJlX+03RNXmw=
 before_install:
 - openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.cer.enc -out travis/cert/loginpush.cer -a -d
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.p12.enc -out travis/cert/loginpush.p12 -a -d
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.mobileprovision.enc -out travis/cert/loginpush.mobileprovision -a -d
-- chmod +x travis/add-key.sh
-- chmod +x travis/build.sh
-- chmod +x travis/remove-key.sh
-before_script:
-- "./travis/add-key.sh"
-script:
-- "./travis/build.sh"
-after_script:
-- "./travis/remove-key.sh"
-- ls -als build
