@@ -3,30 +3,27 @@ osx_image: xcode11.3
 xcode_project: LoginPush.xcodeproj
 xcode_scheme: LoginPush
 xcode_destination: platform=IOS Simulator,OS=12.1,name=iPhone X
-
 env:
   global:
-  - secure: Ue9BcJDjujj9nYCIceNCdaJwjdkjjT3buj5reAGjDAkL6pgtRS1Hglu6+eKpgvfdhpo3O8d7zu3oBUUSjyVEnYp4CKeI37WArbqKqf4mR+EnAzPm8QzA1InZC9xIuSTAsLOgCOLDavZM+DEj+xHE+H2elnZB6RmbwtBZi4c27iXiYh/QPZw3q4SHIBmEILNSIaifcXuDRjqm6shGUBJkto0wKV63cpB2zS97/tpYG+sXTrUlh72Apn803GqMcchrhqwKYSBq7n5DOKKjECcWLXxvbWiKXLxGwEWg9rEDFdtCybbjHP5Pf9TIQAWVp+ZTycLzld7I6M66KqwlR1rSYgD56uc2IexPN8y8Bpt+COl/9AcXAi175rHATuz86AyrpNKVhSH7XtPIdbV0jldibZCeg7J005hcBipKIn1NQrY6NYT4Zc39mBOJLPQpODhfmWtsw/saH6G2V8SA7VTTWmFB4toZb6dJ3z0aXz4k/OJMMsx4p5Id6IKlBPDmsuVfKdnPF+TSqaXr06vdIo5IGwp/BvLtEyV/NA+6PWTyIMo/TeRZAfGTIdQ19aR5ZRzIPo6ekEqqjmHX8AvferE017O3Hbm6rCKccR0+7JcQobnC/Y/uBwD/lGX/GZnHzWzSZV/kTNP3RC4+z2YZvb6Cx+42rop4t3sT2aXE0hwjzEA=
   - APP_NAME="LoginPush"
   - 'DEVELOPER_NAME="iPhone Distribution: Zhimin Zhang (8L43HRUR5G)"'
   - PROFILE_NAME="loginpush_pp"
-  - secure: EvBfYRTRWXW2dLZBHKg7zBvLspgWl3CSwm/wZK+iDSEFEu8uXIgfaeYCkOXD70By0md1+xoORn8ajukUAuXqe+uS0/jFigXFgSyc48+3VSU80I10KLuTqfFlPZl8d4wG/xjhqhL/FWDo+bVtsrL9lAIEudmd3bfuzjoyEMxzxtvP6VTbUqvc/d9xVdgR/eK1zJ4kYNuGhG36uduKBbGBQsH68MXsY73vuxHl6fBi0aoLVXLPjxKfhmxseXkh0bEn3SWL0EPbIibwicZRA1fudpJF82dno+9hA12OvqL/gY8R5XkeQ+VQxJFU4SKSwy0LxXRHHJFWdkeJAlsZRSdnnix/i/oTppt+xeclm8sS1JCHVMZTmecEVANAt48tsN1Gz3UW1puJmiJbqjJhm69FyqTwKsndS52xKVgzEbnYPer+cssYa0vR28CfiL0m/oZXSzMSpr+9/JTT2VKQZlqPRuHgueg3C5hvCzK2KjgXv5ZHatKJ0Mg+RcyrUxnzORHOWCca+QJO8YKTRnedppSwVgej84FIdKW26zf50E4G/q1BobRxm5YsqWiGWdyoNL1BYlBJVFCGwFRPyYXO/ITIzc0oRNa/lKMNmSX1yImEze6NHfoJjZyiVV1mItHxgenS/3ei/JczT48DzKUIfdXYw6ibCSP7b84eEEFvm/aT9Q8=
-
+  - secure: KeEEXVZQxBk1xDN0BoJX/icXs7MC4+YGY/+Obadl3kS0VRbbY/lEVFPfw6P4D+OnbLdv2gZWDNO6hdSIGy/IE6PdOWwQBaxPYHd7rXl99Yg3L12A3qMiEpmCkdLix075dcgavV9aEFJHJdR9B/n6CGKBIt4rSkRmU0Li1vt1xxQXQCNG+ax+M8p5lgmRoY6t1giEtnGpD8qWsi6sMPdQqw0S0nL5igh6JJHuu3ke+bcPkvGYIZU7yaNZCzi8N68GWfd5IWc9VXdMw/2TT/WLOD0LGRDq61GpKsFuYVeqhwPyA/NrlO3KkEPnbRWSH5YFJDEvpJhT/vsMhKMP2eZI2tRlCv5hf1ub9kNc6Ty7n/EhYBgak7eCtq08/et6Ry+zSYMJvkQejZhGYOOjjRMTjWkuDBnmnRDdBt0lBNg6/5BvqWe4rg+JI61VZs6kXhPq/HMFcjp41qGFAPjG8syyp/JrHOjlv/6F+9j1iI0L1VT2Klf8Fo/ZccdhWyzGEIhuKDneVBp4VslcuP+r0JVA++fdHgkazhvBfc9UgPj9ozxP9oNxFA5V6sz2IYGaPfRiTiXZBfgVS8+G7a1ca/qWVMa0iULLTNBiqCabLztWHD5zsxeNjwH8cQko+0mb0HzjYqhCjDurWVE3k1UB2XB+U/Y/o9IZEjum6FIjsd5E/9o=
+  - secure: t6FdFVZ+1g9+wtNLY+IqeFXaDqE1i7HDraFmVmLe4cLVwrzb0nLtaJtTjvju/MvHPrUzpT22ID+Mr8XPg8k6L/M80h1kXr70rr61vfV5wiXLbYWFFoaHY9u98ZRDsTtGIj/QNGaZYzoiMuDzLj+98XiwZ9UiMJNevlUFOM27bs7o7HTMfIRuF1yFY2O0ostX+Co57sT+1UAoWN2b0huFa0+YfUPAc6mNPQOvR8dSGfLTTFPLDXtyUMDxjwsuLGIuviht6DaE1UxqwiQUKA8AzUSj5QYstoS9S48H1gzvlVxRvPpN9QmvA4T6rwTwlKn/1iq3ygqboCB/K1RuTL66ljZQyafNYgvml0c04jpkAm+Z0ilrsqkzH8QTrCv6MJkedfPwCgshsRvE65lKCXlAjZ0hG7PkD7gfK7JbK797dAC0BRHatUojQypQmKJSs10vJlownhu7jQdc59B+DxAiXJUHM2j9HtV4lPjGZcZbLt8KbDTB3Vs49UdJh6lM6exhGvhKics742yI0Jln/DDMQxSBRRlGf5jOHtmkMLzmWUbeq3XdZwChy+DA+Iwtsbhc41bG+RKJipw8z1KBl+vI8X1b0NI2uX8zkM1sp8c+yUOD1kWt8FQ5h92M1zmSPKNg4km/7Mm5aHqQcDciXsYNxeMz3TQhiO6CJlX+03RNXmw=
 before_install:
-- chmod +x travis/add-key.sh 
-- chmod +x travis/build.sh 
-- chmod +x travis/remove-key.sh 
-
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.cer.enc -out travis/cert/loginpush.cer -a -d
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.p12.enc -out travis/cert/loginpush.p12 -a -d
-- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.mobileprovision.enc -out travis/cert/loginpush.mobileprovision -a -d
-
+- chmod +x travis/add-key.sh
+- chmod +x travis/build.sh
+- chmod +x travis/remove-key.sh
+- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.cer.enc -out
+  travis/cert/loginpush.cer -a -d
+- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.p12.enc -out
+  travis/cert/loginpush.p12 -a -d
+- openssl aes-256-cbc -k $ENCRYPTION_SECRET -in travis/cert/loginpush.mobileprovision.enc
+  -out travis/cert/loginpush.mobileprovision -a -d
 before_script:
 - "./travis/add-key.sh"
-
 script:
 - "./travis/build.sh"
-
 after_script:
 - "./travis/remove-key.sh"
-- "ls -als build"
+- ls -als build
