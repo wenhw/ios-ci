@@ -9,6 +9,8 @@ security import ./travis/cert/AppleWWDRCA.cer -k ~/Library/Keychains/ios-build.k
 security import ./travis/cert/loginpush.cer -k ~/Library/Keychains/ios-build.keychain -T /usr/bin/codesign
 security import ./travis/cert/loginpush.p12 -k ~/Library/Keychains/ios-build.keychain -P $KEY_PASSWORD -A
 
+security set-key-partition-list -S apple-tool:,apple: -s -k travis ios-build.keychain
+
 echo "list keychains: "
 security list-keychains
 echo " ****** "
