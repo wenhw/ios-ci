@@ -14,7 +14,7 @@
 		<string>loginpush_pp</string>
 	</dict>
 	<key>signingCertificate</key>
-	<string>3B49D37C1AA1B68B3EB4BB2FE4025689B86256F3</string>
+	<string>07F5D6491B2F5D1E3928B2AEF32DB2B05E859907</string>
 	<key>signingStyle</key>
 	<string>manual</string>
 	<key>stripSwiftSymbols</key>
