@@ -26,3 +26,5 @@ script:
 after_script:
 - "./travis/remove-key.sh"
 - "ls -als build"
+- "gem list | grep sqlite"
+- "gem list | grep CFPropertyList"
